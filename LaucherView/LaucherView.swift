@@ -8,7 +8,7 @@
 import Foundation
 import UIKit
 
-public class SDView: UIView {
+public class LaucherView: UIView {
 
   dynamic var duration: Double = 0.6
 
