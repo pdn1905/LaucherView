@@ -19,7 +19,7 @@ it, simply add the following line to your Podfile:
 ![Alt Text](https://media.giphy.com/media/kfnC9rzczSoqk/giphy.gif)
 
 ```ruby
-pod 'LaucherView'
+pod 'LaucherView' ,:git => "https://github.com/pdn1905/LaucherView"
 ```
 
 Easy to use:
