@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LaucherView_Tests' do
+  pod 'LaucherView', :path => '../'
+  
+  
+end
