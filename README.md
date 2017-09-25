@@ -16,7 +16,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 LaucherView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
-![Alt Text](https://media.giphy.com/media/AQEp1SOAOBmzS/giphy.gif)
+![Alt Text](https://media.giphy.com/media/kfnC9rzczSoqk/giphy.gif)
 
 ```ruby
 pod 'LaucherView'
@@ -30,21 +30,26 @@ Class MyView: LaucherView {
 }
 
 var myView = MyView()
+```
 
-myView.showSlide(width: 300) //show left view
+Show left view:
+```ruby
+myView.showSlide(width: 300) 
+```
 
-or 
+Show bottom view:
+```ruby
+myView.showBottom(height: 300) 
+```
 
-myView.showBottom(height: 300) //show bottom view
-
-custom duration:
-
+Custom duration:
+```ruby
 myView.duration = 1.0
+```
 
-and hide view:
-
+Hide view:
+```ruby
 myView.hide()
-
 ```
 
 ## Author
