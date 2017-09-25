@@ -1,0 +1,6 @@
+framework module LaucherView {
+  umbrella header "LaucherView-umbrella.h"
+
+  export *
+  module * { export * }
+}
